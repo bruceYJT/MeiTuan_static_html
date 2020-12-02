@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* h:14.01 w:7.89 */
+html,body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+.top {
+    height: 4%;
+    width: 100%;
+    background-color: black;
+}
+
+.search {
+    height: 7%;
+    width: 100%;
+    background-color: rgb(71, 188, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#city {
+    padding-left: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.icon-Icon-KeyboardArrow-Down-Rounded {
+    font-size: 20px;
+    
+}
+
+.icon-dingweiweizhi {
+    font-size: 24px;
+    color: #fff;
+}
+
+.icon-search {
+    font-size: 18px;
+    line-height: 175%;
+    color: #fff;
+}
+
+#search-input {
+    padding-left: 5px;
+    width: 62%;
+    height: 65%;
+    border-radius: 20em;
+    background-color: rgb(46, 163, 154);
+}
+
+#search-input input {
+    outline: none;
+    background-color: rgba(235, 235, 235,0);
+    border: 0;
+    color: #fff;
+}
+
+input::-webkit-input-placeholder { 
+    color:rgba(235, 235, 235,0.5) !important; 
+} 
+
+input:-moz-placeholder  { 
+    color:rgba(235, 235, 235,0.5) !important; 
+} 
+
+input::-moz-placeholder  { 
+    color:rgba(235, 235, 235,0.5) !important; 
+} 
+
+input:-ms-input-placeholder  { 
+    color:rgba(235, 235, 235,0.5) !important; 
+} 
+
+
+.nav {
+    width: 100%;
+    height: 32%;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-list {
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-item {
+    width: 22%;
+    height: 45%;
+    /* border: 1px solid rgb(71, 188, 182); */
+}
+
+.nav-item span::before {
+    font-size: 24px;
+}
+
+.nav-item span {
+    margin: 0.5em auto;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 3em;
+    overflow: hidden;
+    display:block;
+    width: 3em;
+    height: 3em;
+    border-radius: 1.5em;
+    
+}
+
+#food {
+    background-color: rgb(251, 143, 35);
+}
+
+#movie {
+    background-color: rgb(240, 96, 46);
+}
+
+#hotel {
+    background-color: rgb(119, 134, 251);
+}
+
+#ktv {
+    background-color: rgb(254, 186, 23);
+}
+
+#new-today {
+    background-color: rgb(74, 214, 201);
+}
+
+#quan {
+    background-color: rgb(234, 130, 43);
+}
+
+#travel {
+    background-color: rgb(111, 201, 238);
+}
+
+#fast-food {
+    background-color: rgb(255, 143, 37);
+}
+
+.nav-item p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.mark {
+    margin-top: 0.5em;
+    height: 0.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.circular {
+    margin: 0 2px;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);
+}
+
+.mark .active {
+    background-color: rgb(65, 148, 142);
+}
+
+.time-shopping {
+    height: 28%;
+    width: 100%;
+    margin-top: 0.5em;
+    background-color: #fff;
+}
+
+.time-shopping-title {
+    
+    height: 24%;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-shopping-title h2 {
+    padding-left: 10px;
+    line-height: 250%;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.time-shopping-title div {
+    line-height: 300%;
+    font-size: 15px;
+    color: rgb(125,125,125);
+}
+
+.time-shopping-title div .timer {
+
+    margin: auto 0 auto 5px;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(235, 235, 235);
+    background-color: rgb(122, 122, 122);
+
+}
+
+.onsale-shop {
+    height: 76%;
+    display: flex;
+    
+}
+
+.onsale-shop div {
+    flex: 1;
+}
+
+.onsale-shop .middle {
+    border-left: 1px solid rgb(235, 235, 235);
+    border-right: 1px solid rgb(235, 235, 235);
+}
+
+.onsale-shop div .img {
+    width: 80%;
+    height: 40%;
+    background-color: rgb(235, 235, 235);
+    margin: 10px auto;
+}
+
+.shop-name {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(125,125,125);
+    margin-bottom: 10px;
+}
+
+.price {
+    width: 100%;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price .price-new {
+    
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(236, 201, 41);
+    margin-right: 10px;
+}
+
+.price .price-new strong {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.price .price-old {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: rgb(65, 148, 142);
+}
+
+.fen {
+    display: inline-block;
+    width: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.more {
+    display: inline-block;    
+    margin-left: 10px;
+}
+
+.hot-list {
+    width: 100%;
+    margin-top: 3%;
+    height: 26%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.hot-item {
+    box-sizing: border-box;
+    border: 0.5px solid rgb(235, 235, 235);
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hot-item .img{
+    width: 3em;
+    height: 4em;
+    background-color: rgb(235, 235, 235);
+}
+
+.hot-item div h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hot-item div p {
+    font-size: 8px  !important;
+    color: rgb(156, 156, 156);
+}
+
+.menu {
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(243, 244, 248,0.8);
+    transition: 1s;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menu:hover {
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 1;
+}
+
+.menu-item {
+    width: 11%;
+    color: rgb(134, 134, 134);
+}
+
+.menu-item span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-item p {
+    text-align: center;
+    font-size: 10px;
+}
+.menu-item .active {
+    color:  rgb(71, 188, 182);
+}
